@@ -1,0 +1,14 @@
+<!-- <h1>{{ title }} app is running!</h1> -->
+<ul class="nav justify-content-center bg-dark">
+  <li class="nav-item">
+    <a class="nav-link active" [routerLink]="['/welcome']">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" [routerLink]="['/products']">Product list</a>
+  </li>
+</ul>
+
+<!-- <pm-products></pm-products> -->
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
